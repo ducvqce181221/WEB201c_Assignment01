@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <h1>MY RESUME</h1>
+            <a href="#skills">My skill</a> | <a href="#education">My education</a> |
+            <a href="#contact">My contact</a>
+        </header>
+        <main>
+            <section>
+                <img width="300px" src="images/myProfile.jpg" alt="Vu Quang Duc" />
+                <h2>VU QUANG DUC</h2>
+                <h4>Web Designer</h4>
+            </section>
+
+            <!-- INFO -->
+            <section>
+                <h3>INFO:</h3>
+                <div>
+                    <img src="images/location.png" alt="Location" />
+                    <span
+                        >Address:
+                        <span style="font-style: italic">359 Nguyen Van Cu street, Ninh Kieu District</span></span
+                    >
+                </div>
+                <div>
+                    <img src="images/call.png" alt="call" />
+                    <span>Phone: <span style="font-style: italic">+84 0912802301</span></span>
+                </div>
+                <div>
+                    <img src="images/mail.png" alt="mail" />
+                    <span>Email: <span style="font-style: italic">vuquangduc1404@gmail.com</span></span>
+                </div>
+            </section>
+
+            <!-- PROFILE -->
+            <section>
+                <h3>PROFILE:</h3>
+                <p>
+                    With the experience of a second-year student, I took the time to learn and participate in the field
+                    of Information Technology. I am confident that through projects and activities in this industry, I
+                    have had the opportunity to develop specialized and management skills, although I still have to
+                    learn more to have the knowledge for my future career. hybrid.
+                </p>
+            </section>
+
+            <!-- WORK EXPERIENCE -->
+            <section>
+                <h3>WORK EXPERIENCE:</h3>
+                <ol>
+                    <li>
+                        <span
+                            ><strong>2019 - 2022: </strong
+                            ><span style="font-style: italic"
+                                >Studying at Nguyen Trung Truc High School - Rach Gia, Kien Giang</span
+                            ></span
+                        >
+                        <ul>
+                            <li>Admitted to the Ho Chi Minh Communist Youth Union.</li>
+                            <li>Complete high school graduation and pass the national high school exam.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span
+                            ><strong>2022 - Present: </strong
+                            ><span style="font-style: italic">Studying at FPT Can Tho University</span></span
+                        >
+                        <ul>
+                            <li>Complete level 6 English certificate.</li>
+                            <li>Complete a semester of defense and security education.</li>
+                            <li>
+                                Participate in extracurricular activities such as "volunteer Saturdays" or web design
+                                courses.
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- EDUCATION -->
+            <section>
+                <h3 id="education">EDUCATION:</h3>
+                <table border="1px">
+                    <tr>
+                        <th>Years</th>
+                        <th>Qualification</th>
+                        <th>Study place</th>
+                    </tr>
+                    <tr>
+                        <td>2022-2026</td>
+                        <td>University</td>
+                        <td>FPT University</td>
+                    </tr>
+                    <tr>
+                        <td>2019-2022</td>
+                        <td>High school education</td>
+                        <td>Nguyen Trung Truc High school</td>
+                    </tr>
+                    <tr>
+                        <td>2016-2019</td>
+                        <td>Secondary school education</td>
+                        <td>Nguyen Du Secondary school</td>
+                    </tr>
+                    <tr>
+                        <td>2012-2016</td>
+                        <td>Primary school education</td>
+                        <td>Nguyen Ba Ngoc Primary school</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!-- SKILLS -->
+            <section>
+                <h3 id="skills">SKILLS:</h3>
+                <div>
+                    <span style="font-style: italic">HTML (30%)</span>
+                    <progress value="30" max="100"></progress>
+                </div>
+                <br />
+
+                <div>
+                    <span style="font-style: italic">CSS (20%)</span>
+                    <progress value="20" max="100"></progress>
+                </div>
+                <br />
+
+                <div>
+                    <span style="font-style: italic">JavaScript (10%)</span>
+                    <progress value="10" max="100"></progress>
+                </div>
+            </section>
+
+            <!-- HOBBY -->
+            <section>
+                <h3>HOBBY:</h3>
+                <div>
+                    <img src="images/news.png" alt="news" />
+                    <span><strong>News:</strong></span>
+                    <span style="font-style: italic">Vietnam.net</span>
+                </div>
+                <!-- Nhúng trang web -->
+                <iframe width="1000" height="400" src="https://vietnamnet.vn/" frameborder="1"></iframe>
+
+                <div>
+                    <img src="images/video.png" alt="video" />
+                    <span><strong>Video:</strong></span>
+                    <span style="font-style: italic">Doraemon</span>
+                </div>
+                <!-- Nhúng video -->
+                <video controls>
+                    <source src="data/DoraemonTheMovie2017.mp4" type="video/mp4" />
+                    Your browser does not support the HTML5 video.
+                </video>
+
+                <div>
+                    <img src="images/music.png" alt="music" />
+                    <span><strong>Music:</strong></span>
+                    <span style="font-style: italic">Trach duyen trach phan</span>
+                </div>
+                <!-- Nhúng file MP3 -->
+                <audio controls>
+                    <source src="data/Trach-Duyen-Trach-Phan.mp3" type="audio/mp3" />
+                </audio>
+            </section>
+
+            <!-- CONTACT -->
+            <section>
+                <h3 id="contact">CONTACT:</h3>
+                <!-- FORM -->
+                <form>
+                    <fieldset>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input id="name" type="text" />
+                        </div>
+
+                        <div>
+                            <label for="phone">Phone:</label>
+                            <input id="phone" type="text" />
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input id="email" type="text" />
+                        </div>
+
+                        <div>
+                            <label>Gender:</label>
+                            <input type="radio" name="gender" /> Male <input type="radio" name="gender" /> Female
+                        </div>
+
+                        <div>
+                            <label>Choose interests:</label>
+                            <input type="checkbox" /> Java <input type="checkbox" /> CSharp
+                            <input type="checkbox" /> HTML <input type="checkbox" /> CSS
+                        </div>
+
+                        <div>
+                            <label for="support">Support:</label>
+                            <select name="Support" id="support">
+                                <option value="html">HTML</option>
+                                <option value="css">CSS</option>
+                                <option value="c/c++">C/C++</option>
+                                <option value="java">Java</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="content">Content:</label> <br />
+                            <textarea name="Content" id="content" rows="4" cols="35"></textarea>
+                        </div>
+
+                        <div>
+                            <input type="button" value="Send" />
+                            <input type="reset" />
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; Copyright 2024, Design by Vu Quang Duc.</p>
+        </footer>
+    </body>
+</html>
